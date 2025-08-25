@@ -21,4 +21,4 @@ if tem_cupom == "s":
         print("Cupom inválido. Sem desconto.")
 
 print(f"Total a pagar: R$ {preco_final:.2f}")
-print("Pedido finalizado. Obrigado pela preferência!")              
+print("Pedido finalizado. Obrigado pela preferência!")          
