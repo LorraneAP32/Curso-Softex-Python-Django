@@ -20,3 +20,5 @@ usuarios_somente_falha = usuarios_falha - usuarios_sucesso
 
 print("Usuários com pelo menos um login bem-sucedido:", usuarios_sucesso)
 print("Usuários que tiveram somente logins com falha:", usuarios_somente_falha)
+
+
