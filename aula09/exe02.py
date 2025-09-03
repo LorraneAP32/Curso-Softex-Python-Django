@@ -19,4 +19,3 @@ set_online = set(estoque_online)
 print("Produtos disponíveis na loja e no site:", set_principal & set_online)
 print("Produtos disponíveis apenas na loja física:", set_principal - set_online)
 print("Produtos disponíveis apenas no site:", set_online - set_principal)
-
