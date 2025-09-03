@@ -1,3 +1,4 @@
+
 estoque_principal = [
     ("Camiseta", 101),
     ("Calça", 102),
