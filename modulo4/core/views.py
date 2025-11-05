@@ -2,7 +2,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def home(request):
-    return HttpResponse("<h1>Olá, Mundo! Esta é minha primeira página Django!</h1>")
-
+    context={
+        'nome_usuario':'Lorrane',
+        'tecnologias':['python', 'Django','HTML','CSS']
+    }
+    return render(request, 'home.html',context)
+  
 def site(request):
-    return HttpResponse("<h1> O VITOR é legal!<h1>")
+    return HttpResponse("<h1>Nova pasta</h1>")
