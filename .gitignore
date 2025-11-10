@@ -2,4 +2,6 @@
 *.db
 .venv
 *.sqlite3
-
+__pycache__
+*.cache 
+venv
